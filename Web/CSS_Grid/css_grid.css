@@ -9,9 +9,11 @@ p
 .grd1
 {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(2, 200px); 
-    gap: 0px 0px;
+    /* grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 200px);  */
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 150px);
+    gap: 10px;
     
 }
 
@@ -27,6 +29,7 @@ p
     display: grid;
     grid-template-rows: 200px 300px 100px;
     grid-template-areas: "uno uno dos dos" "tres cuat cuat cuat" "cin cin cin cin";
+    gap: 10px;
 }
 
 .grd2_1
@@ -94,22 +97,126 @@ p
     grid-area: w2;
 }
 
+
+
+.grd4
+{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 150px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+}
+.grd4_1
+{
+    grid-area: 1 / 1 / 2 / 3;
+    background-color: #F08080;
+}
+.grd4_2
+{
+    grid-area: 1 / 3 / 3 / 4;
+    background-color: #F4978E;
+}
+.grd4_3
+{
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: #F8AD9D;
+}
+.grd4_4
+{
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: #FBC4AB;
+}
+
 .grd5
 {
     display: grid;
-    grid-template-areas: "yel seb pau gus perro seb" "ivn yel seb pau ivn gus" "yel gus perro seb yel perro";
+    /* grid-template-areas: "yel seb pau gus perro seb" "ivn yel seb pau ivn gus" "yel gus perro seb yel perro"; */
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap:10px;
 }
 .grd5 img
 {
-    width: 150px;
-    height: 150px;
+    width: 230px;
+    height: 230px;
 }
 
-
-
-/* .yel
+.grd6 
 {
-    grid-area: repeat(yel);
-} */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+}
+
+.grd6_1
+{
+    background-color: #e5c1f3;
+}
+
+.grd6_2
+{
+    background-color: #a192dc;
+}
+
+.grd6_3
+{
+    background-color: #bea2f4;
+}
+
+.grd6_4
+{
+    background-color: #efe4f8;
+}
+
+.grd6_5
+{
+    background-color: #d6b2ef;
+}
+
+.grd6_6
+{
+    background-color: #8b86d1;
+}
+
+#grd6_8
+{
+    grid-area: 2/3/2/-1;
+}
+#grd6_9
+{
+    grid-area: 3/1/3/-1;
+    
+}
+
+.grd7 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 150px);
+    gap: 10px;
+}
+
+.grd7_1
+{
+    grid-area: 1/1/1/-1;
+    background-color: #55CCD4;
+}
+
+.grd7_2
+{
+    grid-row: span 2;
+    background-color: #C7DAC7;
+}
+.grd7_3
+{
+    grid-area: 2/2/4/-1;
+    background-color: #FE6786;
+}
+.grd7_4
+{
+    grid-area: 4/1/4/-1;
+    background-color: #FE8D7B;
+}
