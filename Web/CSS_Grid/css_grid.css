@@ -58,9 +58,25 @@ p
     background-color: #A44A3F;
 }
 
-
-.yel img
+.grd5
+{
+    display: grid;
+    grid-template-areas: "yel seb pau gus perro seb" "ivn yel seb pau ivn gus" "yel gus perro seb yel perro";
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.grd5 img
 {
     width: 150px;
     height: 150px;
+}
+
+.prub
+{
+    background-color: aquamarine;
+}
+
+.yel
+{
+    grid-area: repeat(yel);
 }
