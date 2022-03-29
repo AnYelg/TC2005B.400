@@ -9,9 +9,10 @@ p
 .grd1
 {
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap: 0px;
-    justify-items: stretch;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 200px); 
+    gap: 0px 0px;
+    
 }
 
 .grd1 img
@@ -24,8 +25,7 @@ p
 .grd2
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 200px 300px 100px;
     grid-template-areas: "uno uno dos dos" "tres cuat cuat cuat" "cin cin cin cin";
 }
 
@@ -33,6 +33,7 @@ p
 {
     grid-area: uno;
     background-color: #D4E09B;
+
 }
 
 .grd2_2
@@ -57,6 +58,40 @@ p
 {
     grid-area: cin;
     background-color: #A44A3F;
+}
+.grd3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.grd3_3
+{
+    grid-row: 2 / span 2;
+}
+
+.grd3_4
+{
+    display: grid;
+    grid-row: 2 / span 2;
+    grid-template-areas: "h h" "w1 w2";
+    gap: 10px;
+    padding: 10px;
+    justify-items: center stretch;
+}
+.grd3_5
+{
+    
+    grid-area: h;
+}
+.grd3_6
+{
+    grid-area: w1;
+}
+.grd3_7
+{
+    grid-area: w2;
 }
 
 .grd5
