@@ -1,0 +1,95 @@
+
+body
+{
+    font-family: Verdana,Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+.arriba
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #253F4B;
+    
+
+}
+.middle
+{
+    background-color: #B97C2B;
+    padding: 40px;
+}
+.middle p
+{
+    margin: 15px;
+}
+.basico
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+}
+.basico div
+{
+    margin:5px;
+    text-align: center;
+    
+}
+
+#basico2 p
+{
+    font-size: small;
+}
+
+#centro
+{
+    padding: 40;
+}
+button
+{
+    background-color: #B97C2B;
+    color:white;
+}
+
+.email
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #253F4B;
+    padding: 20px;
+}
+
+#subs
+{
+    padding-right: 25px;
+}
+
+.img
+{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.img div
+{
+    padding: 0.3%;
+}
+.img img
+{
+    width: 90px;
+    height: 100px;
+}
+.img p
+{
+    font-size: small;
+}
+
+
+
