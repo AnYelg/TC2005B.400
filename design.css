@@ -11,7 +11,7 @@ body
 {
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0,0.50),rgba(0, 0, 0,0.75)),url("https://i.pinimg.com/originals/6f/de/aa/6fdeaabc62260a2762b3ba76e4428ad0.png");
+    background-image:linear-gradient(rgba(0, 0, 0,0.50),rgba(0, 0, 0,0.75)),url("https://i.pinimg.com/originals/6f/de/aa/6fdeaabc62260a2762b3ba76e4428ad0.png") no-repeat;
     background-size: cover;
     background-position: center;
 }

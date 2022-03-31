@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href = "css_grid.css" rel ="stylesheet">
+        <title>Css Grid HW</title>
+    </head>
+    <body>
+        <p>Grid 3</p>
+        <div class="grd3">
+            <div class="grd3_1" style="background-color: #F08080;">
+                <p>1</p>
+            </div>
+            <div class="grd3_2" style="background-color: #FF99C8;">
+                <p>2</p>
+            </div>
+            <div class="grd3_3" style="background-color: #FCF6BD;">
+                <p>3</p>
+            </div>
+            <div class="grd3_4" style="background-color: #E4C1F9;">
+                <div class="grd3_5" style="background-color: #A9DEF9;">
+                    <p>4</p>
+                </div>
+                <div class="grd3_6" style="background-color: #BDE9EC;">
+                    <p>5</p>
+                </div>
+                <div class="grd3_7" style="background-color: #D0F4DE;">
+                    <p>6</p>
+                </div>
+            </div>
+        
+        </div>
+        <section>
+            <button id = "btnS" onclick ="submit-button">
+                Siguiente Grid
+            </button>
+            <button id = "btnA" onclick ="submit-button">
+                Grid Anterior
+            </button>
+        </section>
+        <script type="text/javascript">
+            document.getElementById("btnA").onclick = function()
+            {
+                window.location = "https://anyelg.github.io/TC2005B.400/Web/CSS_Grid/css_grid2.html";
+            }
+            document.getElementById("btnS").onclick = function()
+            {
+                window.location = "https://anyelg.github.io/TC2005B.400/Web/CSS_Grid/css_grid4.html";
+            }
+        </script>
+    </body>
+</html>

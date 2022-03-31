@@ -9,20 +9,11 @@ p
 .grd1
 {
     display: grid;
-    /* grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(2, 200px);  */
     grid-template-columns: repeat(3, 33%);
     grid-template-rows: repeat(2, 150px);
     gap: 10px;
     
 }
-
-.grd1 img
-{
-    width: 350px;
-    height: 200px;
-}
-
 
 .grd2
 {
@@ -283,4 +274,18 @@ p
 {
     grid-area: 2/2/2/-1;
     background-color: #ED7898;
+}
+
+#btnS
+{
+    left: 85%;
+    bottom: -100%;
+    position: relative;
+}
+
+#btnN
+{
+    right: 0%;
+    bottom: 0%;
+    position: relative;
 }
