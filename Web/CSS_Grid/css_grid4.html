@@ -6,37 +6,38 @@
         <title>Css Grid HW</title>
     </head>
     <body>
-        <p>Grid 1</p>
-        <div class="grd1">
-            <div style="background-color: #C9E4CA">
+        <p>Grid 4</p>
+        <div class="grd4">
+            <div class="grd4_1">
                 <p>1</p>
             </div>
-            <div style="background-color: #87BBA2">
+            <div class="grd4_2">
                 <p>2</p>
             </div>
-            <div style="background-color: #6E9F97">
+            <div class="grd4_3">
                 <p>3</p>
             </div>
-            <div style="background-color: #55828B">
+            <div class="grd4_4">
                 <p>4</p>
             </div>
-            <div style="background-color: #3B6064">
-                <p>5</p>
-            </div>
-            <div style="background-color: #364958">
-                <p>6</p>
-            </div>
         </div>
-        <section>
+        <section class ="botones">
+            <button id = "btnA" onclick ="submit-button">
+                Grid Anterior
+            </button>
+            
             <button id = "btnS" onclick ="submit-button">
                 Siguiente Grid
             </button>
         </section>
         <script type="text/javascript">
-    
+            document.getElementById("btnA").onclick = function()
+            {
+                window.location = "https://anyelg.github.io/TC2005B.400/Web/CSS_Grid/css_grid3.html";
+            }
             document.getElementById("btnS").onclick = function()
             {
-                window.location = "https://anyelg.github.io/TC2005B.400/Web/CSS_Grid/css_grid2.html";
+                window.location = "https://anyelg.github.io/TC2005B.400/Web/CSS_Grid/css_grid5.html";
             }
         </script>
     </body>

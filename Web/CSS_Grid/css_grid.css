@@ -1,4 +1,7 @@
-
+body
+{
+    height: 100vh;
+}
 p
 {
     font-family: Arial Black;
@@ -9,8 +12,9 @@ p
 .grd1
 {
     display: grid;
+    height: 100%;
     grid-template-columns: repeat(3, 33%);
-    grid-template-rows: repeat(2, 150px);
+    grid-template-rows: repeat(2, 35%);
     gap: 10px;
     
 }
@@ -18,7 +22,8 @@ p
 .grd2
 {
     display: grid;
-    grid-template-rows: 200px 300px 100px;
+    height: 100%;
+    grid-template-rows: 33%, 50% 17%;
     grid-template-areas: "uno uno dos dos" "tres cuat cuat cuat" "cin cin cin cin";
     gap: 10px;
 }
@@ -56,8 +61,9 @@ p
 .grd3
 {
     display: grid;
+    height: 100%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: repeat(3, 33%);
 }
 
 .grd3_3
@@ -93,8 +99,9 @@ p
 .grd4
 {
     display: grid;
+    height: 100%;
     grid-template-columns: repeat(3, 33%);
-    grid-template-rows: repeat(2, 150px);
+    grid-template-rows: repeat(2, 40%);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     
@@ -123,7 +130,7 @@ p
 .grd5
 {
     display: grid;
-    /* grid-template-areas: "yel seb pau gus perro seb" "ivn yel seb pau ivn gus" "yel gus perro seb yel perro"; */
+    height: 100%;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap:10px;
@@ -137,8 +144,9 @@ p
 .grd6 
 {
     display: grid;
+    height: 100%;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 150px);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
 }
 
@@ -215,6 +223,7 @@ p
 .grd8 
 {
     display: grid;
+    height: 100%;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 150px);
     gap:10px;
@@ -255,6 +264,7 @@ p
 .grd9
 {
     display: grid;
+    height: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 150px 200px 200px;
     gap:10px;
@@ -276,16 +286,18 @@ p
     background-color: #ED7898;
 }
 
-#btnS
+ #btnS
 {
     left: 85%;
-    bottom: -100%;
+    top:10%;
+    bottom: -100%; 
     position: relative;
 }
 
-#btnN
+#btnA
 {
     right: 0%;
-    bottom: 0%;
+    top: 0%;
+    bottom: 10%;
     position: relative;
-}
+}  
